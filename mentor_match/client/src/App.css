@@ -1,0 +1,118 @@
+/* CSS for LandingPage component */
+/* You can further customize this CSS to fit your needs */
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Fuzzy+Bubbles&family=Hubballi&family=Karla:wght@300;400&family=Lato:ital,wght@1,100&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Quicksand:wght@500&family=Roboto&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.Appp {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203a43f1, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203a43ec, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.landing-page {
+  font-family: Arial, sans-serif;
+}
+
+.navbarr {
+  background: rgb(149, 100, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 40, 52, 1) 0%,
+    rgba(149, 100, 121, 1) 100%
+  );
+  position: sticky;
+  /* background-color: #ffffff; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* padding: 12px 8px; */
+}
+
+.containerr {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.bg-footer {
+  background-color: #0e2530;  /* fallback for old browsers */
+ 
+}
+ .bg-light{
+  background-color: #071318;  /* fallback for old browsers */
+ 
+  
+}
+.bg-dark{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #122127c2, #0e1b1fc8, #081115);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#122127c2, #0e1b1fc8, #081115);
+}
+
+
+ 
+.bg-post:hover{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a343769, #202c2f65, #14242ba8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#2a343769, #202c2f65, #14242ba8);
+}
+
+.navbarr .logo {
+  margin: 0;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+
+
+.get-started {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.get-started h2 {
+  margin-bottom: 10px;
+}
+
+.btnn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btnn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  color: wheat;
+  background-color: #303030;
+  padding: 9px 0;
+  text-align: center;
+}
